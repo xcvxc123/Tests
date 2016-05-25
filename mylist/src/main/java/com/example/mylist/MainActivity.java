@@ -17,22 +17,22 @@ ListView lv;
 
         lv = (ListView) findViewById(R.id.lv);
 
-        List<Bean> list = new ArrayList<Bean>();
-        list.add(new Bean("1","11"));
-        list.add(new Bean("1","22"));
-        list.add(new Bean("1","33"));
-        list.add(new Bean("1","11"));
-        list.add(new Bean("1","22"));
-        list.add(new Bean("1","33"));
-        list.add(new Bean("1","11"));
-        list.add(new Bean("1","22"));
-        list.add(new Bean("1","33"));
-        list.add(new Bean("1","11"));
-        list.add(new Bean("1","22"));
-        list.add(new Bean("1","33"));
-        list.add(new Bean("1","11"));
-        list.add(new Bean("1","22"));
-        list.add(new Bean("1","33"));
+//        List<Bean> list = new ArrayList<Bean>();
+//        list.add(new Bean("1","11"));
+//        list.add(new Bean("1","22"));
+//        list.add(new Bean("1","33"));
+//        list.add(new Bean("1","11"));
+//        list.add(new Bean("1","22"));
+//        list.add(new Bean("1","33"));
+//        list.add(new Bean("1","11"));
+//        list.add(new Bean("1","22"));
+//        list.add(new Bean("1","33"));
+//        list.add(new Bean("1","11"));
+//        list.add(new Bean("1","22"));
+//        list.add(new Bean("1","33"));
+//        list.add(new Bean("1","11"));
+//        list.add(new Bean("1","22"));
+//        list.add(new Bean("1","33"));
 
         MyAdater adapter = new MyAdater(list,getApplicationContext());
         lv.setAdapter(adapter);
